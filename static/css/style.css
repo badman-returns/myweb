@@ -10,12 +10,12 @@ body{
 
 /*Navigation Section*/
 .navbar{
-    padding-top: 50px;
-    transition: 0.2s;
+   
+   background-color: white;
 }
 
 #nav-bar{
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     left: 0;
@@ -27,7 +27,7 @@ body{
 .navbar a{
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase!important;
-    color:white;
+    color:black;
     
 }
 nav.white{
