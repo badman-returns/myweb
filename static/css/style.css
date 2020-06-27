@@ -108,6 +108,7 @@ nav.white{
     color: white;
     text-align: center;
     justify-content: center;
+    text-transform: uppercase;
     font-size: 50px;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
@@ -169,6 +170,7 @@ nav.white{
 }
 
 .stay-connected{
+    text-transform: uppercase;
     margin-top: 50px;
     text-align: center;
     justify-content: center;
