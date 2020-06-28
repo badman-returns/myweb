@@ -125,7 +125,7 @@ nav.white{
 }
 @media only screen and (min-width : 992px){
     #about{
-        height:700px;
+        height:680px;
     }
     .about-title{
         font-size:70px;
@@ -136,7 +136,7 @@ nav.white{
 }
 @media only screen and (max-width: 991px){
     #about{
-        height:700px;
+        height:600px;
     }
     .about-title{
         margin-top:70px;
@@ -155,7 +155,7 @@ nav.white{
 }
 @media only screen and (max-width:462px){
     #about{
-        height: 670px;
+        height: 580px;
     }
 }
 /*Social Section*/

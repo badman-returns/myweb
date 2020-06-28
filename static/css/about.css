@@ -49,11 +49,20 @@ body{
 }
 
 /* Cards */
+
 .card-body{
-    box-shadow: 5px 5px 5px 2px rgb(190, 190, 190);
-    border-radius: 20px;
+
     margin: 50px auto;
 }
+
+.card-body-2{
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+    margin: 50px auto;
+}
+
+
 .card-body h4{
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
@@ -61,11 +70,24 @@ body{
 .card-body h5{
     font-family: 'Ubuntu', sans-serif;
     
-    
 }
 .card-body li{
+    list-style: none;
     font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
     
+}
+@media only screen and (max-width:991px){
+    .card-body{
+        box-shadow: 5px 1px 5px 1px rgb(190, 190, 190);
+        border-radius: 10px;
+    }
+    .card-body li{
+        list-style: disc;
+    }
+    .card-body-2{
+        margin:0;
+    }
 }
 
 .img-fluid-rounded-circle{
@@ -81,12 +103,33 @@ p{
 .marker p{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 .marker img{
     margin: 10 10px;
     width: 30px;
 }
+/*Nav Tabs*/
+
+.nav-tabs{
+    float: right;
+}
+.nav-link{
+    color:#000 !important;
+}
+.nav-link.active{
+    background-color: #000 !important;
+    color: white !important;
+}
+.journey{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.j-para{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
 
 
 /*Footer*/
