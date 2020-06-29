@@ -117,13 +117,15 @@ p{
 .nav-tabs{
     float: right;
 }
+@media only screen and (max-width:991px){
+    .nav-tabs{
+        float:left;
+    }
+}
 .nav-link{
     color:#000 !important;
 }
-.nav-link.active{
-    background-color: #000 !important;
-    color: white !important;
-}
+
 .journey{
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
@@ -132,7 +134,9 @@ p{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold;
 }
-
+.list{
+    margin:0 20px;
+}
 
 
 /*Footer*/
