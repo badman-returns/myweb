@@ -5,7 +5,6 @@
 
 /*Body*/
 body{
-    /* background-color: white; */
     background-color: #ececec;
 }
 
@@ -48,106 +47,86 @@ body{
 .navbar-toggler{
     outline: none !important;
 }
-
-/* Cards */
-
+/* Cards*/
 .card-body{
     background-color: white;
-    margin: 50px auto;
+    margin: 30px auto;
     -moz-box-shadow: 0 5px 10px #999;
     -webkit-box-shadow: 0 5px 10px #999;
     box-shadow: 0 5px 10px #999;
-    
 }
-
-.card-body-2{
-    background-color: white;
-    -moz-box-shadow: 0 5px 10px #999;
-    -webkit-box-shadow: 0 5px 10px #999;
-    box-shadow: 0 5px 10px #999;
-    margin: 50px auto;
-}
-
-
-.card-body h4{
+.card-body h3{
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
 }
-.card-body h5{
+.form-group{
     font-family: 'Ubuntu', sans-serif;
-    
+    font-style: bold;
+    font-size: 20px;
 }
-.card-body li{
-    list-style: inside;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: bold;
-    
+
+input[type="text"], textarea {
+        outline: none;
+        box-shadow:none !important;
+        border:1px solid #ccc !important;
 }
-@media only screen and (max-width:991px){
-    .card-body{
-        box-shadow: 5px 1px 5px 1px rgb(190, 190, 190);
-        
-    }
-    
-    .card-body li{
-        list-style: inside;
-    }
-    .card-body-2{
-        margin:0;
+
+/* Submit button*/
+
+.btn-dark{
+    color: white;
+    background-color: black !important;
+    border-color:black !important;
+}
+
+
+/*Social Section*/
+#social{
+    height: 300px;
+    background-color: rgb(85, 84, 84);
+}
+@media only screen and (max-width:785px){
+    #social{
+        height:400px;
     }
 }
 
-.img-fluid-rounded-circle{
-    border-radius:50%;
-}
-.marker{
-    display: flex;
-    float: center;
-}
-p{
-    margin-bottom: 0 !important;
-}
-.marker p{
-    font-family: 'Noto Sans JP', sans-serif;
+.stay-connected{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
 }
-.marker img{
-    margin: 10 10px;
+.container img{
     width: 30px;
-}
-/*Nav Tabs*/
-
-.nav-tabs{
-    float: right;
+    margin: 20px 15px;
+    filter: invert(1);
 }
 @media only screen and (max-width:991px){
-    .nav-tabs{
-        float:left;
+    .container img{
+        width: 50px;
     }
 }
-.nav-link{
-    color:#000 !important;
+.container a{
+    display: inline;   
 }
-
-.journey{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
+.items{
+    justify-content: center;
+    text-align: center;
 }
-.j-para{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: bold;
-}
-.list{
-    margin:0 20px;
-}
-
-
 
 
 
 /*Footer*/
 #footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: black;
     padding:20px 0px;
 
